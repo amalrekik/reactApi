@@ -46,7 +46,7 @@ function App() {
       username={profil.username} 
       name={profil.name} 
       street={profil.address.street}
-      sweet={profil.address.sweet}
+      suite={profil.address.suite}
       city={profil.address.city}
       mail={profil.email}
       phone={profil.phone}/>})}
