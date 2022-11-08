@@ -7,7 +7,7 @@ export default function ProfilList(props) {
         <p><b style={{fontSize:'20px', color:'rgb(41, 41, 41)'}}>Full Name:</b> {props.name}</p>
         <b style={{fontSize:'20px', color:'rgb(41, 41, 41)'}}>address:</b>
         <p>street:{props.street}<br/>
-        sweet:{props.sweet}<br/>
+        suite:{props.suite}<br/>
         city:{props.city}<br/></p>
         <b style={{fontSize:'20px', color:'rgb(41, 41, 41)'}}>Contact us</b>
         <p> <b style={{color:'rgb(209, 103, 121)'}}>by mail:</b><br/>{props.mail}</p>
